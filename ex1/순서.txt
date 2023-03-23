@@ -1,0 +1,30 @@
+1. 가나슈를 설치한다
+2. truffle init
+3. truffle config => 포트와 network id를 맞춘다
+4. truffle contracts폴더 => truffle create contract A
+5. truffle migrate 폴더 => 1_A_sol.js 
+6. truffle complie
+7. truffle migrate 
+7-1 하나만 migrate => truffle migrate -f 4 --to 4
+
+truffle migrate --network goerli
+
+truffle console --network goerli
+
+npm install dotenv
+npm install @truffle/hdwallet-provider
+
+
+
+bsc metamask에 추가하기 : https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain
+bsc 대표 defi pancakeswap : https://pancakeswap.finance/swap
+
+matic metamask에 추가하기: https://autofarm.gitbook.io/autofarm-network/how-tos/use-autofarm-in-different-chains/polygon-chain-matic/metamask-add-polygon-matic-network
+matic 대표 defi : https://quickswap.exchange/ 
+
+
+8719d06a85a32b316cbee909769b31a67704fd6cc83b4ee294fa3e8601579c8e
+
+
+0xe368fe381271ca148cAa541b361cFDE05b3056DC
+0x32d1cd8daAC8313DbB7c36e84d724978152AdC71
